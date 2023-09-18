@@ -6,52 +6,52 @@
 3. Global
 4. Main Header / Style Two / Style Three
 5. Banner Section / Style Two / Style Three / Style Four
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
-28. 
-29. 
-30. 
-31. 
-32. 
-33. 
-34. 
-35. 
-36. 
-37. 
-38. 
-39. 
-40. 
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
 
 **********************************************/
 
-/* 
+/*
 
 	font-family: 'Inter', sans-serif;
 	font-family: 'Nunito Sans', sans-serif;
-	
+
 */
 
-/*** 
+/***
 
 ====================================================================
 	Root Code Variables
@@ -62,47 +62,47 @@
 /* Theme Color */
 
 :root {
-	
+
 	/* #f2be00 in decimal RGB */
   --main-color: rgb(242,190,0);
-  
+
   /* #0c2d62 in decimal RGB */
-  --main-color-two: rgb(12,45,98);
-  
+  --main-color-two: #1B552C;
+
   /* #f2be00 in decimal RGBA */
   --main-color-two-rgba: rgb(242,190,0,0.90);
-  
+
   /* #ffffff in decimal RGB */
   --white-color:rgb(255,255,255);
-  
+
   /* #ffffff in decimal RGBA */
   --white-color-opicity:rgba(255,255,255,0.80);
-  
+
   /* #ffffff in decimal RGBA */
   --white-color-opicity-two:rgba(255,255,255,0.20);
-  
+
   /* #000000 in decimal RGB */
   --black-color:rgb(0,0,0);
-  
+
   /* #ffffff in decimal RGBA Two */
   --black-color-opicity:rgba(0,0,0,0.80);
-  
+
   /* #555555 in decimal RGB */
   --text-color:rgb(85,85,85);
-  
+
   /* #00162b Heading Color in decimal RGB */
   --heading-color:rgb(0,22,43);
-  
+
   /* #f4f4f4 Grey Color in decimal RGB */
   --heading-color:rgb(244,244,244);
-  
-  
+
+
   --font-family-inter: 'Inter', sans-serif;
   --font-family-nunito: 'Nunito Sans', sans-serif;
-  
-	
+
+
 /* Heading Fonts */
-  
+
   --font-12: 12px;
   --font-13: 13px;
   --font-14: 14px;
@@ -142,9 +142,9 @@
   --font-120: 120px;
   --font-150: 150px;
   --font-200: 200px;
-  
+
   --margin-zero: 0px;
-  
+
   /* Margin Left Variables */
   --margin-left-5: 5px;
   --margin-left-10: 10px;
@@ -166,7 +166,7 @@
   --margin-left-90: 90px;
   --margin-left-95: 95px;
   --margin-left-100: 100px;
-  
+
   /* Margin Top Variables */
   --margin-top-5: 5px;
   --margin-top-10: 10px;
@@ -189,7 +189,7 @@
   --margin-top-95: 95px;
   --margin-top-100: 100px;
   --margin-top-110: 110px;
-  
+
   /* Margin Right Variables */
   --margin-right-5: 5px;
   --margin-right-10: 10px;
@@ -211,7 +211,7 @@
   --margin-right-90: 90px;
   --margin-right-95: 95px;
   --margin-right-100: 100px;
-  
+
   /* Margin Bottom Variables */
   --margin-bottom-5: 5px;
   --margin-bottom-10: 10px;
@@ -235,10 +235,10 @@
   --margin-bottom-100: 100px;
   --margin-bottom-150: 150px;
   --margin-bottom-200: 200px;
-  
-  
+
+
   --padding-zero: 0px;
-  
+
   /* Padding Left Variables */
   --padding-left-5: 5px;
   --padding-left-10: 10px;
@@ -272,7 +272,7 @@
   --padding-left-200: 200px;
   --padding-left-220: 220px;
   --padding-left-230: 230px;
-  
+
   /* Padding Top Variables */
   --padding-top-5: 5px;
   --padding-top-10: 10px;
@@ -300,7 +300,7 @@
   --padding-top-140: 140px;
   --padding-top-150: 150px;
   --padding-top-200: 200px;
-  
+
   /* Padding Right Variables */
   --padding-right-5: 5px;
   --padding-right-10: 10px;
@@ -328,7 +328,7 @@
   --padding-right-170: 170px;
   --padding-right-200: 200px;
   --padding-right-250: 250px;
-  
+
   /* Padding Bottom Variables */
   --padding-bottom-5: 5px;
   --padding-bottom-10: 10px;
@@ -353,17 +353,17 @@
   --padding-bottom-150: 150px;
   --padding-bottom-200: 200px;
   --padding-bottom-250: 250px;
-  
+
 }
 
-/*** 
+/***
 
 ====================================================================
 	Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -371,7 +371,7 @@
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -419,7 +419,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input,button,select,textarea{
-	
+
 }
 
 textarea{
@@ -498,7 +498,7 @@ h6{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 img{
@@ -517,7 +517,7 @@ img{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 ::-webkit-input-placeholder{color: inherit;}
@@ -951,10 +951,10 @@ img{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -976,7 +976,7 @@ img{
 
 .sec-title h2{
 	font-weight:900;
-	color:var(--main-color-two); 
+	color:var(--main-color-two);
 	text-transform:uppercase;
 	margin-bottom:var(--margin-bottom-10);
 }

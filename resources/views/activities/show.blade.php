@@ -3,7 +3,7 @@
 @section('content')
 
     <section class="page-title">
-        <div class="content" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2THPpgXQ6udFJMy3JOLumTGdj_FeL8GFXCQ&usqp=CAU)">
+        <div class="content" style="background-image: url({{ asset('data/gallery_banner.jpg') }})">
             <div class="auto-container">
                 <h1>Gallery & Activities</h1>
             </div>
