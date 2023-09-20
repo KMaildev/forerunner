@@ -372,6 +372,14 @@
                                 Myanmar Overseas Employment Agencies Federation
                             </i>
                         </li>
+
+                        <li data-tab="#team-5" class="tab-btn">
+                            <span class="number">5.</span>
+                            Organizational Chart
+                            <i>
+                                Our Company Structure
+                            </i>
+                        </li>
                     </ul>
 
                     <!--Tabs Container-->
@@ -384,7 +392,7 @@
                                     <div class="image-column col-lg-6 col-md-6 col-sm-12">
                                         <div class="image">
                                             <img src="{{ asset('data/c1.png') }}" alt=""
-                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                                style="width: 100%; height: 590px; background-size: cover; object-fit: cover; object-position: top;" />
                                         </div>
                                     </div>
                                 </div>
@@ -398,7 +406,7 @@
                                     <div class="image-column col-lg-6 col-md-6 col-sm-12">
                                         <div class="image">
                                             <img src="{{ asset('data/c2.png') }}" alt=""
-                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                                style="width: 100%; height: 590px; background-size: cover; object-fit: cover; object-position: top;" />
                                         </div>
                                     </div>
                                 </div>
@@ -413,22 +421,33 @@
                                     <div class="image-column col-lg-6 col-md-6 col-sm-12">
                                         <div class="image">
                                             <img src="{{ asset('data/c3.png') }}" alt=""
-                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                                style="width: 100%; height: 590px; background-size: cover; object-fit: cover; object-position: top;" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Tab -->
                         <div class="tab" id="team-4">
                             <div class="content">
                                 <div class="row clearfix">
-                                    <!-- Image Column -->
                                     <div class="image-column col-lg-6 col-md-6 col-sm-12">
                                         <div class="image">
                                             <img src="{{ asset('data/c4.png') }}" alt=""
-                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                                style="width: 100%; height: 590px; background-size: cover; object-fit: cover; object-position: top;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab" id="team-5">
+                            <div class="content">
+                                <div class="row clearfix">
+                                    <div class="image-column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="image">
+                                            <img src="{{ asset('data/org.png') }}" alt=""
+                                                style="width: 100%; background-size: cover; object-fit: cover; object-position: top;" />
                                         </div>
                                     </div>
                                 </div>

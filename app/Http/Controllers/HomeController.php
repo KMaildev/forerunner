@@ -11,7 +11,7 @@ class HomeController extends Controller
     public function index()
     {
         $teams = Team::all();
-        $activities = Activitie::all();
+        $activities =  Activitie::latest()->take(3)->get();
         return view('welcome', compact('teams', 'activities'));
     }
 }

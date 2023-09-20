@@ -1,57 +1,96 @@
-<footer class="main-footer" style="background-image:url({{ asset('assets/images/background/6.jpg') }})">
+<footer class="footer-style-two style-two" style="background-image:url({{ asset('assets/images/background/10.jpg') }})">
     <div class="auto-container">
-
-        <!-- Upper Box -->
-        <div class="upper-box">
-            <div class="box-inner">
-                <div class="title">Sign Up To Our <span>Newsletter</span></div>
-                <!-- Subscribe Form -->
-                <div class="subscribe-form">
-                    <form method="post" action="https://html.themerange.net/bricks/contact.html">
-                        <div class="form-group">
-                            <span class="icon fa fa-envelope"></span>
-                            <input type="email" name="email" value="" placeholder="Enter your email address"
-                                required="">
-                            <button type="submit" class="theme-btn btn-style-one"><span class="txt">Subscribe
-                                    Now</span></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- End Upper Box -->
-
-        <!--Widgets Section-->
+        <!-- Widgets Section -->
         <div class="widgets-section">
             <div class="row clearfix">
 
-                <!-- Column -->
                 <div class="big-column col-lg-6 col-md-12 col-sm-12">
                     <div class="row clearfix">
-
-                        <!-- Footer Column -->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget logo-widget">
                                 <div class="widget-content">
                                     <div class="logo">
-                                        <a href="index.html"><img src="{{ asset('assets/images/logo-2.png') }}"
-                                                alt="" /></a>
+                                        <a href="{{ route('home') }}">
+                                            <img src="assets/images/logo-3.png" alt="" />
+                                        </a>
                                     </div>
-                                    <div class="text">There are many variation passages of lorem ipsum but
-                                        the majority .</div>
+                                    <div class="text">
+                                        FORERUNNER MYANMAR CO.,LTD
+                                        <br><br>
+                                        <p>
+                                            We are one of the best oversea employment agency in myanmar.
+                                        </p>
+                                    </div>
+                                    <ul class="social-box">
+                                        <li><a href="https://www.facebook.com/" class="fa fa-facebook-f"></a></li>
+                                        <li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
+                                        <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
+                                        <li><a href="https://youtube.com/" class="fa fa-youtube-play"></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Footer Column -->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
-                                <h5>QUICK LINKS</h5>
+                                <h5>Quick Links</h5>
                                 <ul class="list-link">
-                                    <li><a href="warranty-service.html">About Company</a></li>
-                                    <li><a href="warranty-service.html">Free Consultation</a></li>
-                                    <li><a href="warranty-service.html">Our Services</a></li>
-                                    <li><a href="warranty-service.html">Forensic science</a></li>
+                                    <li class="current">
+                                        <a href="{{ route('home') }}">
+                                            Home
+                                        </a>
+                                    </li>
+
+                                    <li class="dropdown current">
+                                        <a href="#" class="mega-menu-link">
+                                            About Us
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="{{ route('about.index') }}">
+                                                    Our Company
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('ceo_message') }}">
+                                                    CEO’s MESSAGE
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="{{ route('team') }}">
+                                                    Professional Team
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" target="_blank">
+                                                    Company Profile
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown current">
+                                        <a href="#" class="mega-menu-link">
+                                            Application Form
+                                        </a>
+                                        <ul class="mega-submenu">
+                                            <li>
+                                                <a href="{{ route('cv.index') }}">
+                                                    Submit CV
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('employer.index') }}">
+                                                    Employer Form
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
                                 </ul>
                             </div>
                         </div>
@@ -62,45 +101,92 @@
                 <!-- Column -->
                 <div class="big-column col-lg-6 col-md-12 col-sm-12">
                     <div class="row clearfix">
-
-                        <!-- Footer Column -->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                            <div class="footer-widget links-widget">
-                                <h5>Company</h5>
+                            <div class="footer-widget newsletter-widget">
+                                <h5>
+                                    Overseas Jobs
+                                </h5>
                                 <ul class="list-link">
-                                    <li><a href="warranty-service.html">Customers</a></li>
-                                    <li><a href="warranty-service.html">Insights</a></li>
-                                    <li><a href="warranty-service.html">Meet Our Team</a></li>
+
+
+                                    <li class="dropdown current">
+                                        <a href="#" class="mega-menu-link">
+                                            Our Network
+                                        </a>
+                                        <ul class="mega-submenu">
+                                            @foreach ($countries as $country)
+                                                <li>
+                                                    <a href="{{ route('job.show', $country->id) }}">
+                                                        {{ $country->country ?? '' }}
+                                                    </a>
+                                                </li>
+                                            @endforeach
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown current">
+                                        <a href="#" class="mega-menu-link">
+                                            Gallery & Activities
+                                        </a>
+                                        <ul class="mega-submenu">
+                                            @foreach ($categories as $category)
+                                                <li>
+                                                    <a href="{{ route('activities.show', $category->id) }}">
+                                                        {{ $category->title ?? '' }}
+                                                    </a>
+                                                </li>
+                                            @endforeach
+                                        </ul>
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>
 
                         <!-- Footer Column -->
                         <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                            <div class="footer-widget links-widget">
-                                <h5>FOLLOW US</h5>
-                                <!-- Social Box -->
-                                <ul class="social-box">
-                                    <li><a href="https://www.facebook.com/" class="fa fa-facebook-f"></a>
-                                    </li>
-                                    <li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
-                                    <li><a href="https://www.linkedin.com/" class="fa fa-linkedin"></a></li>
-                                    <li><a href="https://youtube.com/" class="fa fa-youtube-play"></a></li>
-                                </ul>
+                            <div class="footer-widget gallery-widget">
+                                <h5>
+                                    Facebook
+                                </h5>
+                                <div class="row clearfix">
+
+                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
+
+
+        <div class="footer-gallery">
+            <div class="footer-gallery-carousel owl-carousel owl-theme">
+                @foreach ($activities_footer as $activity)
+                    @php
+                        $images = explode(',', $activity->images);
+                    @endphp
+                    @foreach ($images as $image)
+                        <div class="slide" title="Click on Image">
+                            <a href="{{ $image }}" data-fancybox="gallery" data-caption="">
+                                <img src="{{ $image }}" alt=""
+                                    style="width: 100%; height: 180px; object-position: top; background-size: center; object-fit: cover;" />
+                            </a>
+                        </div>
+                    @endforeach
+                @endforeach
+            </div>
+        </div>
+
     </div>
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
+    <div class="footer-bottom" style="padding-top: 100px;">
         <div class="auto-container">
-            <div class="copyright">&copy; <a href="index.html">Bricks</a> - Copyright 2021. Design by <a
-                    href="https://themeforest.net/user/codeliono/portfolio">codeliono</a></div>
+            <div class="copyright">
+                &copy;
+                Copyright ©
+                {{ now()->year }}
+                FORERUNNER MYANMAR CO.,LTD. All Rights Reserved
+            </div>
         </div>
     </div>
 </footer>

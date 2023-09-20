@@ -1,94 +1,101 @@
 @extends('layouts.main')
 @section('title', 'About of Our Company')
 @section('content')
-    <div class="cmt-page-title-row bg-base-dark cmt-bg cmt-bgimage-yes clearfix">
-        <div class="cmt-titlebar-wrapper-bg-layer cmt-bg-layer"></div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="cmt-page-title-row-inner">
-                        <div class="page-title-heading">
-                            <h2 class="title">
-                                CEO’s MESSAGE
-                            </h2>
-                        </div>
-                        <div class="breadcrumb-wrapper">
-                            <span>
-                                <a title="Homepage" href="{{ route('home') }}">Home</a>
-                            </span>
-                            <span>
-                                CEO’s MESSAGE
-                            </span>
+
+    <section class="page-title">
+        <div class="content" style="background-image: url({{ asset('data/about-us-banner.jpg') }})">
+            <div class="auto-container">
+                <h1>CEO’s MESSAGE</h1>
+            </div>
+        </div>
+        <ul class="page-breadcrumb">
+            <li>
+                <a href="{{ route('home') }}">
+                    home
+                </a>
+            </li>
+            <li>CEO’s MESSAGE</li>
+        </ul>
+    </section>
+
+
+    <section class="team-single-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+
+                <div class="image-column col-lg-4 col-md-12 col-sm-12">
+                    <div class="inner-column wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image" >
+                            <img style="border: 2px solid #ff0000; padding: 10px;" src="https://cdn-icons-png.flaticon.com/512/6813/6813405.png" alt="" />
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <br>
-    <div class="section-full p-t120 p-b120 twm-explore-area bg-cover ">
-        <div class="container">
-            <div class="section-content">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            <div class="team-block">
-                                <div class="team-thumb">
-                                    <img class="img-fullwidth" src="{{ asset('data/md.png') }}" alt=""
-                                        style="width: 100%;">
-                                </div>
-
-                                <div class="info">
-                                    <center>
-                                        <div class="pt-10 pb-10" style="background-color: #d96f2d">
-                                            <h4 class="mt-0 mb-0 text-white" style="font-size: 17px;">
-                                                KYAW MIN OO
-                                            </h4>
-                                            <h6 class="mt-0 mb-0 text-white" style="font-size: 15px;">
-                                                Managing Director
-                                            </h6>
-                                        </div>
-                                    </center>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8 col-md-12">
-                            <div class="twm-title-small">
-                                PAING HTET SAN
-RECRUITMENT CO.,LTD.
-                            </div>
-                            <h2>
-                                CEO’s MESSAGE
-                            </h2>
-                            <p style="text-align: justify; font-size: 18px; color: black;">
-                                Dear Job Seekers,
-                                <br><br>
-                                Welcome to our overseas employment agency!
-                                <br><br>
-                                At our agency, our mission is clear to connect talented individuals
-                                like you with international job opportunities. With our deep understanding of
-                                global markets, immigration laws, and visa processes, we can offer a wide
-                                range of employment options in various sectors.
-                                <br><br>
-                                Transparency, ethics and open communication are at the heart of
-                                our values. We are dedicated to providing personalized guidance and support
-                                to each one of you. Our commitment to excellence ensures successful
-                                placements and long-term relationships with our clients.
-                                <br><br>
-                                Let’s work together to make your dreams of working abroad a
-reality.
-                                <br><br>
-                                Best Regards!
+                <div class="content-column col-lg-8 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <h3>
+                            Tin Tin Win
+                            <span class="category">CEO</span>
+                        </h3>
+                        <ul class="post-meta">
+                            <li>
+                                <span class="icon flaticon-email-2"></span>
+                                <a href="mailto:info@forerunnermyanmar.com">
+                                    info@forerunnermyanmar.com
+                                </a>
+                            </li>
+                            <li>
+                                <span class="icon flaticon-call-2"></span>
+                                <a href="tel:+959 421 008 271">+959 421 008 271</a>
+                            </li>
+                            <li>
+                                <span class="icon flaticon-call-1"></span>
+                                <a href="tel:+959 5 085 559">
+                                    +959 5 085 559
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="text">
+                            <p>
                                 <br>
-                                Mr. Kyaw Min Oo
+                                Dear Team at Forerunner Myanmar Co., Ltd.,
+                                <br><br>
+                                I hope this message finds you all in high spirits. I'd like to take a moment to share some
+                                thoughts and express my gratitude for your dedication to our mission in the overseas
+                                employment sector.
+                                <br><br>
+                                At Forerunner Myanmar Co., Ltd., our goal has always been clear: to empower individuals
+                                through global career opportunities. Over the years, we've achieved significant milestones
+                                and transformed countless lives.
+                                <br><br>
+                                I want to commend each of you for your hard work, commitment, and ethical practices. We've
+                                overcome challenges, adapted to industry changes, and consistently prioritized the welfare
+                                of our clients and candidates.
+                                <br><br>
+                                In today's interconnected world, our role is more crucial than ever. We link individuals
+                                with their dreams, connecting them with opportunities that align with their goals. We enable
+                                them to explore new horizons, embrace diverse cultures, and contribute to a global
+                                community.
+                                <br><br>
+                                As we look ahead, let's reiterate our commitment to excellence and innovation. We'll use
+                                emerging technologies to enhance our processes and deliver better results for everyone
+                                involved.
+                                <br><br>
+                                I'm excited about the future, and I'm confident that, with your support, we'll continue to
+                                break barriers and create opportunities for individuals seeking overseas employment.
+                                <br><br>
+                                Thank you for being an essential part of our journey.
+                                <br><br>
+                                Warm regards,
+                                <br>
+                                Tin Tin Win
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
+    </section>
+
 @endsection

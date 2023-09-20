@@ -2,18 +2,18 @@
     <div class="header-top">
         <div class="auto-container">
             <div class="inner-container clearfix">
-                <!-- Top Left -->
                 <div class="top-left clearfix">
                     <ul class="page-links">
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="terms.html">Term Of Service</a></li>
+                        <li>
+                            <a href="javascript::void(0)">
+                                Room (803), Building (C), Yadanar Housing, Yadana Road, (13) Block, <br> South Okkalarpa
+                                Township, Yangon, Myanmar.
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
-                <!-- Top Right -->
                 <div class="top-right pull-right clearfix">
-                    <!-- Social Box -->
                     <ul class="social-box">
                         <li class="follow">Follow us:</li>
                         <li><a href="https://www.facebook.com/" class="fa fa-facebook-f"></a></li>
@@ -22,7 +22,6 @@
                         <li><a href="https://youtube.com/" class="fa fa-youtube-play"></a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </div>
@@ -35,8 +34,8 @@
                 <div class="pull-left logo-box">
                     <div class="logo">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt=""
-                                title="FORERUNNER MYANMAR CO.,LTD">
+                            <img src="{{ asset('data/logo.jpg') }}" alt="" title="FORERUNNER MYANMAR CO.,LTD"
+                                style="width: 300px;">
                         </a>
                     </div>
                 </div>
@@ -51,8 +50,8 @@
                             <li>
                                 Email Us At:
                                 <br>
-                                <a href="mailto:email@domain.com">
-                                    email@domain.com
+                                <a href="mailto:info@forerunnermyanmar.com">
+                                    info@forerunnermyanmar.com
                                 </a>
                             </li>
                         </ul>
@@ -65,35 +64,21 @@
                         <ul>
                             <li>
                                 Call Us Any Time:<br>
-                                <a href="tel:+0-000-0000-000">
-                                    +0 (000) 0000 000
+                                <a href="tel:+959 421 008 271">
+                                    +959 421 008 271
                                 </a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="upper-column info-box">
-                        <div class="icon-box">
-                            <span class="flaticon-map"></span>
-                        </div>
-                        <ul>
-                            <li>
-                                Location<br>
-                                <a href="#">04 East, New York, USA</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="upper-column info-box">
-                        <a href="#" class="theme-btn btn-style-two">
+                        <a href="javascript::void(0)" class="theme-btn btn-style-two">
                             <span class="txt">
-                                Get A Quote
+                                Google Map
                             </span>
                         </a>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>
@@ -151,7 +136,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="{{ asset('data/painghtetsan.pdf') }}" target="_blank">
+                                        <a href="#" target="_blank">
                                             Company Profile
                                         </a>
                                     </li>
@@ -168,28 +153,28 @@
                                             <a href="{{ route('job.show', $country->id) }}">
                                                 {{ $country->country ?? '' }}
                                             </a>
-                                        </li>
-                                    @endforeach
+                                        </li> @endforeach
                                 </ul>
                             </li>
 
 
-                            <li class="dropdown current">
-                                <a href="#" class="mega-menu-link">
-                                    Application Form
-                                </a>
-                                <ul class="mega-submenu">
-                                    <li>
-                                        <a href="{{ route('cv.index') }}">
-                                            Submit CV
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ route('employer.index') }}">
-                                            Employer Form
-                                        </a>
-                                    </li>
-                                </ul>
+                            <li class="dropdown
+                                    current">
+                                    <a href="#" class="mega-menu-link">
+                                        Application Form
+                                    </a>
+                                    <ul class="mega-submenu">
+                                        <li>
+                                            <a href="{{ route('cv.index') }}">
+                                                Submit CV
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ route('employer.index') }}">
+                                                Employer Form
+                                            </a>
+                                        </li>
+                                    </ul>
                             </li>
 
                             <li class="dropdown current">
@@ -212,59 +197,55 @@
                                     Contact Us
                                 </a>
                             </li>
-
-
                         </ul>
                     </div>
-                </nav>
+                    </nav>
 
-                <div class="outer-box clearfix">
-                    <div class="nav-btn navSidebar-button">
-                        <span class="icon flaticon-menu-2"></span>
+                    <div class="outer-box clearfix">
+                        <div class="nav-btn navSidebar-button">
+                            <span class="icon flaticon-menu-2"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container clearfix">
-            <!--Logo-->
-            <div class="logo pull-left">
-                <a href="index.html" title=""><img src="{{ asset('assets/images/logo-small.png') }}"
-                        alt="" title=""></a>
-            </div>
-            <!--Right Col-->
-            <div class="pull-right">
-
-                <!-- Main Menu -->
-                <nav class="main-menu">
-                    <!--Keep This Empty / Menu will come through Javascript-->
-                </nav>
-                <!-- Main Menu End-->
-
-                <!-- Mobile Navigation Toggler -->
-                <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
 
             </div>
         </div>
-    </div><!-- End Sticky Menu -->
 
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
-        <div class="menu-backdrop"></div>
-        <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="{{ route('home') }}" title="">
+                        <img src="{{ asset('data/logo.jpg') }}" alt="" title="" style="width: 200px;">
+                    </a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <nav class="main-menu">
+                    </nav>
 
-        <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="{{ asset('assets/images/logo-small.png') }}"
-                        alt="" title=""></a></div>
-            <div class="menu-outer">
-                <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+
+                </div>
             </div>
-        </nav>
-    </div><!-- End Mobile Menu -->
+        </div>
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+
+            <nav class="menu-box">
+                <div class="nav-logo">
+                    <a href="{{ route('home') }}">
+                        <img src="{{ asset('data/logo.jpg') }}" alt="" title="">
+                    </a>
+                </div>
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                </div>
+            </nav>
+        </div>
 
 </header>
 
@@ -278,34 +259,32 @@
                 </a>
             </div>
             <div class="sidebar-textwidget">
-
-                <!-- Sidebar Info Content -->
                 <div class="sidebar-info-contents">
                     <div class="content-inner">
-                        <div class="logo">
-                            <a href="index.html"><img src="{{ asset('assets/images/logo-2.png') }}"
-                                    alt="" /></a>
-                        </div>
-                        <div class="content-box">
-                            <h4>About Us</h4>
-                            <p class="text">The argument in favor of using filler text goes something like
-                                this: If you use Consulting Process, anytime you reach a review point you’ll end
-                                up reviewing and negotiating the content itself and not the design.</p>
-                            <a href="contact.html" class="theme-btn btn-style-one"><span
-                                    class="txt">Consultation</span></a>
-                        </div>
                         <div class="contact-info">
                             <h4>Contact Info</h4>
                             <ul class="list-style-one">
-                                <li><span class="icon fa fa-location-arrow"></span>Chicago 12, Melborne City,
-                                    USA</li>
-                                <li><span class="icon fa fa-phone"></span>(111) 111-111-1111</li>
-                                <li><span class="icon fa fa-envelope"></span>bricks@gmail.com</li>
-                                <li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday:
-                                    Closed</li>
+                                <li>
+                                    <span class="icon fa fa-location-arrow"></span>
+
+                                    Room (803), Building (C), Yadanar Housing, Yadana Road, (13) Block, South Okkalarpa
+                                    Township, Yangon, Myanmar.
+                                </li>
+                                <li>
+                                    <span class="icon fa fa-phone"></span>
+                                    +959 421 008 271
+                                </li>
+                                <li>
+                                    <span class="icon fa fa-envelope"></span>
+                                    info@forerunnermyanmar.com
+                                </li>
+                                <li>
+                                    <span class="icon fa fa-clock-o"></span>
+                                    Week Days: 09.00 to 5.00
+                                    Sunday: Closed
+                                </li>
                             </ul>
                         </div>
-                        <!-- Social Box -->
                         <ul class="social-box">
                             <li><a href="https://www.facebook.com/" class="fa fa-facebook-f"></a></li>
                             <li><a href="https://www.twitter.com/" class="fa fa-twitter"></a></li>
