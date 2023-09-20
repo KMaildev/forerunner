@@ -326,4 +326,119 @@
             </div>
         </div>
     </div>
+
+
+    <section class="team-section"
+        style="background-image:url({{ asset('assets/assets/images/background/pattern-1.png') }})">
+        <div class="auto-container">
+            <div class="sec-title centered">
+                <span class="icon flaticon-telephone"></span>
+                <h2>LEGAL
+                    <span>DOCUMENTS</span>
+                </h2>
+                <div class="text">
+                    We are one of the best oversea employment agency in myanmar.
+                </div>
+            </div>
+
+            <div class="product-info-tabs">
+                <div class="team-tabs tabs-box">
+                    <ul class="tab-btns tab-buttons clearfix">
+                        <li data-tab="#team-1" class="tab-btn active-btn">
+                            <span class="number">1.</span>
+                            Certificate of Incorporation
+                            <i>
+                                Company registration
+                            </i>
+                        </li>
+                        <li data-tab="#team-2" class="tab-btn">
+                            <span class="number">2.</span>
+                            Company Licence
+                            <i>
+                                Front
+                            </i>
+                        </li>
+                        <li data-tab="#team-3" class="tab-btn">
+                            <span class="number">3.</span>
+                            Company Licence
+                            <i>
+                                Back
+                            </i>
+                        </li>
+                        <li data-tab="#team-4" class="tab-btn">
+                            <span class="number">4.</span>
+                            MOEAF Certificate
+                            <i>
+                                Myanmar Overseas Employment Agencies Federation
+                            </i>
+                        </li>
+                    </ul>
+
+                    <!--Tabs Container-->
+                    <div class="tabs-content">
+
+                        <!-- Tab / Active Tab -->
+                        <div class="tab active-tab" id="team-1">
+                            <div class="content">
+                                <div class="row clearfix">
+                                    <div class="image-column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="image">
+                                            <img src="{{ asset('data/c1.png') }}" alt=""
+                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab -->
+                        <div class="tab" id="team-2">
+                            <div class="content">
+                                <div class="row clearfix">
+                                    <div class="image-column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="image">
+                                            <img src="{{ asset('data/c2.png') }}" alt=""
+                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab -->
+                        <div class="tab" id="team-3">
+                            <div class="content">
+                                <div class="row clearfix">
+                                    <!-- Image Column -->
+                                    <div class="image-column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="image">
+                                            <img src="{{ asset('data/c3.png') }}" alt=""
+                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tab -->
+                        <div class="tab" id="team-4">
+                            <div class="content">
+                                <div class="row clearfix">
+                                    <!-- Image Column -->
+                                    <div class="image-column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="image">
+                                            <img src="{{ asset('data/c4.png') }}" alt=""
+                                                style="width: 100%; height: 500px; background-size: cover; object-fit: cover; object-position: top;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 @endsection
