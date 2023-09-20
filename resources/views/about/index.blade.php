@@ -101,4 +101,229 @@
             </div>
         </div>
     </section>
+
+
+
+    <section class="solution-section" style="background-image:url({{ asset('data/our-team.svg') }})">
+        <div class="auto-container">
+            <div class="row clearfix">
+
+                <div class="title-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <h2>
+                                Our Vision & Mission
+                            </h2>
+                            <div class="text">
+                                FORERUNNER MYANMAR CO.,LTD
+                            </div>
+                        </div>
+                        <!-- Button Box -->
+                        <div class="button-box">
+                            <a class="btn-style-two theme-btn" href="{{ route('contact.index') }}">
+                                <span class="txt">
+                                    Contact Us
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner-column">
+
+                        <!-- Feature Block -->
+                        <div class="feature-block">
+                            <div class="inner-box">
+                                <span class="icon flaticon-helmet-2"></span>
+                                <h4>
+                                    Our Mission
+                                </h4>
+                                <div class="text">
+                                    <ul class="list-style-two">
+                                        <li style="font-size: 14px;">
+                                            Our mission is to generate consistent and
+                                            sustainable return for our investors.
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            To achieve the objective, we continue to practice the values that stand at the
+                                            core of
+                                            our professional philosophy...
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            Excellence in investment technique along with the best of personnel in the
+                                            industry
+                                            allows us to achive consistent top quality in all our endeavors.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Feature Block -->
+                        <div class="feature-block">
+                            <div class="inner-box">
+                                <span class="icon flaticon-office-building"></span>
+                                <h4>
+                                    Our Vision
+                                </h4>
+                                <div class="text">
+                                    Our company is the best service company in our country and than we will do with other
+                                    international company
+
+                                    <ul class="list-style-two">
+                                        <li style="font-size: 14px;">
+                                            Our Objective
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            Trading of fuels
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            IT Solution
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            Travel and Tours
+                                        </li>
+
+                                        <li style="font-size: 14px;">
+                                            Construction
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container py-5">
+        <div class="row clearfix">
+            <div class="col-md-12">
+                <h5>
+                    INTRODUCTION
+                </h5>
+                <p>
+                    Founded in 2020 July 30, Future Golden wings conpany is doing construction work, travel and
+                    tour, trading and other service.
+                    The company offices have in Yangon city and Mandalay city.
+                </p>
+
+                <div class="text">
+                    <style>
+                        .table {
+                            border-collapse: collapse;
+                            border: 1px solid black;
+                            width: 100%;
+                        }
+
+                        th,
+                        tr,
+                        td {
+                            border: 1px solid black;
+                        }
+                    </style>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td width="30%" style="background-color: #e3e4ef; color: black;">
+                                    Company Name
+                                </td>
+                                <td>
+                                    Forerunner Myanmar Co.,Ltd.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #f7f2f2; color: black;">
+                                    Company Number
+                                </td>
+                                <td>
+                                    1092
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #e3e4ef; color: black;">
+                                    Company Type
+                                </td>
+                                <td>
+                                    Private Limited
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #f7f2f2; color: black;">
+                                    Date Of Incorporating
+                                </td>
+                                <td>
+                                    2020 July 30
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #e3e4ef; color: black;">
+                                    Date of Registrations
+                                </td>
+                                <td>
+                                    2020 July 30
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #f7f2f2; color: black;">
+                                    Date of Update
+                                </td>
+                                <td>
+                                    2025 July 29
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="20%" style="background-color: #e3e4ef; color: black;">
+                                    Registered Office
+                                </td>
+                                <td>
+                                    The Government of the Republic of the Union of Myanmar. Ministry of Planning and
+                                    Finanace, Yangon.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #f7f2f2; color: black;">
+                                    Business Address
+                                </td>
+                                <td>
+                                    Room (803), Building (C), Yadanar Housing, Yadana Road, (13) Block, South Okkalarpa
+                                    Township, Yangon, Myanmar.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="background-color: #e3e4ef; color: black;">
+                                    Business Phone
+                                </td>
+                                <td>
+                                    +959 421 008 271,+959 5 085 559
+                                </td>
+                            </tr>
+
+                        </thead>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
 @endsection
