@@ -11,7 +11,7 @@
                                 <div class="widget-content">
                                     <div class="logo">
                                         <a href="{{ route('home') }}">
-                                            <img src="assets/images/logo-3.png" alt="" />
+                                            <img src="{{ asset('data/logo.jpg') }}" alt="" />
                                         </a>
                                     </div>
                                     <div class="text">
